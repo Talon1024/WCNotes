@@ -1,0 +1,17 @@
+A v8 format mesh is a "TPL " form instead of a "MESH" form.
+Chunks in v8 format meshes:
+NAME
+VERL (Vertex location? Length in JEFFB.iff is 312. 312 / 12 = 26)
+NVEC (Normal vectors? Length in JEFFB.iff is 72. 72 / 12 = 6)
+U    (Horizontal texcoord? Length in JEFFB.iff is 384. 384 / 8 = 48)
+V    (Vertical texcoord? Length in JEFFB.iff is 384. 384 / 8 = 48)
+LVIN (????? Length in JEFFB.iff is 384. 384 / 8 = 48)
+FFLG (Face flags? Length in JEFFB.iff is 24. 24 / 4 = 6)
+VCNT (Vertex count? Length in JEFFB.iff is 24. 24 / 4 = 6)
+FLIX (????? Length in JEFFB.iff is 96. 96 / 16 = 6)
+NORM (????? Length in JEFFB.iff is 96. 96 / 16 = 6)
+PLAN (Plane? Length in JEFFB.iff is 96. 96 / 16 = 6)
+MATE (Material? Length in JEFFB.iff is 96. 96 / 16 = 6)
+BSP  (BSP? Length in JEFFB.iff is 144.)
+CNTR (Center)
+RADI (Radius)

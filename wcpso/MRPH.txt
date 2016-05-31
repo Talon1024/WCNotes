@@ -1,0 +1,40 @@
+MRPH chunk format(?)
+
+float x1f1
+float y1f1
+float z1f1
+float u1f1
+float v1f1
+float x1f2
+float y1f2
+float z1f2
+float u1f2
+float v1f2
+
+float x2f1
+float y2f1
+float z2f1
+float u2f1
+float v2f1
+float x2f2
+float y2f2
+float z2f2
+float u2f2
+float v2f2
+
+float x3f1
+float y3f1
+float z3f1
+float u3f1
+float v3f1
+float x3f2
+float y3f2
+float z3f2
+float u3f2
+float v3f2
+
+30 * 4 = 120
+
+So this is the data structure for a single triangle.
+
+960 / 120 = 8
