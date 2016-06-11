@@ -1,0 +1,38 @@
+FORM "COLL" {
+  CHUNK "SPHR" {
+    float x
+    float y
+    float z
+    float r
+  }
+  FORM "EXTN" {
+    FORM "TREE" {
+      CHUNK "DATA" {
+        ...
+      }
+      FORM "BACK" {
+        CHUNK "DATA" {
+          ...
+        }
+        FORM "BACK" {
+          ...
+        }
+        FORM "FRNT" {
+          ...
+        }
+      }
+      FORM "FRNT" {
+        CHUNK "DATA" {
+          ...
+        }
+        FORM "BACK" {
+          ...
+        }
+        FORM "FRNT" {
+          ...
+        }
+      }
+    }
+  }
+}
+
